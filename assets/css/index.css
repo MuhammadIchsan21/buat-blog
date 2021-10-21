@@ -13,6 +13,27 @@ body {
 	padding: 10px 20px;
 	border: none;
 }
+.topBar nav ul {
+	list-style-type: none;
+	margin: 20px;
+}
+.topBar nav ul li {
+	float: right;
+	padding: 20px;
+}
+.topBar nav ul li a {
+	text-decoration: none;
+	position: relative;
+	top: 13px;
+	color: #2d2d2d;
+	border: 2px solid #0000;
+	padding: 10px;
+	margin: 10px;
+	background-color: #7d7d7d;
+}
+.topBar nav ul li a:hover {
+	background-color: #a3a3a3;
+}
 .topBar h1 {
 	margin: 0;
 	padding: 0;
